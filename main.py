@@ -9,7 +9,7 @@ elif operator == "-":
 elif operator == "*":
     result = x * y
 elif operator == "/":
-    if x == 0 or y == 0:
+    if y == 0:
         result = "You can not divide by 0 "
     else:
         result = x / y
